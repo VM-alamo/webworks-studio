@@ -12,7 +12,7 @@ Junior Web Developer
 Studio Onboarding & GitHub Workspace Setup
 
 ## Live Site
-GITHUB PAGES URL
+[GITHUB PAGES URL](https://vm-alamo.github.io/webworks-studio/index.html)
 
 ## Week 1 Requirements
 - Edit project files in Visual Studio Code.
