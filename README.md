@@ -31,3 +31,5 @@ Make the code easier for another developer to understand, maintain, and extend.
 Refer to the Canvas assignment for all required technical work, GitHub workflow, and submission directions.
  
  I redid anything that was colored red. I also tryed my best to make it look plain for next time.
+ fixed the css. By Vivian Medellin from NVC
+ I added grids, It didn't come out perfect by i'm very happy that I learn some of this.
