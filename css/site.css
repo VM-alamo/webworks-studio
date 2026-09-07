@@ -49,6 +49,7 @@ p {
   display: grid;
   grid-template-columns: 2fr 1fr ;
   gap: 25px;
+   grid-auto-rows: 100px;
 }
 
 /*next body section plants */
@@ -214,6 +215,11 @@ a:active {
 img {
     max-width: 100%;
     height: auto;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
 }
 
 /* new notes
