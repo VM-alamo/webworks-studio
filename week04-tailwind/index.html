@@ -9,7 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-gray-100 border-t-gray-200 text-[#261D1A]">
+<body class="bg-[#FAF7F2] border-t-gray-200 text-[#261D1A]">
  <div class="container mx-auto max-w-8xl">
   <header class="bg-[#261D1A] border-b border-[#261D1A]">
     <div class="flex items-center justify-between py-6 px-4 md:px-8">
@@ -25,28 +25,28 @@
     </div>
   </header>
 
-  <main>
+  <main >
 
-    <section>
-      <div>
-        <div>
-          <p>Small-batch roasted in the Texas Hill Country</p>
+    <section class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-1 gap-4 bg-[#F0E4D5]">
+      <div class="flex flex-col md:flex-row items-left justify-between gap-8 py-12 px-4 md:px-8">
+        <div class="flex-1 bg-[#F0E4D5] ">
+          <p class="text-sm text-[#6D4A38] font-semibold">Small-batch roasted in the Texas Hill Country</p>
 
-          <h1>Good coffee. No complicated personality required.</h1>
+          <h1 class="text-3xl font-bold">Good coffee. No complicated personality required.</h1>
 
-          <p>
+          <p class="text-sm">
             Hill &amp; Hollow Coffee roasts approachable, everyday coffee for
             people who want something better than grocery-store beans without
             needing a tasting-wheel vocabulary.
           </p>
 
-          <div>
-            <a href="#coffee">Shop the roast lineup</a>
-            <a href="#story">Meet the roastery</a>
+          <div >
+            <a href="#coffee" class="bg-[#261D1A] text-[#FAF7F2] hover:bg-[#B98458] hover:text-[#261D1A] font-semibold text-sm py-0.3 px-4 rounded">Shop the roast lineup</a>
+            <a href="#story" class="bg-[#261D1A] text-[#FAF7F2] hover:bg-[#B98458] hover:text-[#261D1A] font-semibold text-sm py-0.3 px-4 rounded">Meet the roastery</a>
           </div>
         </div>
 
-        <div>
+        <div class="flex-1 bg-[#F0E4D5] justify-right items-right">
           <img
             src="images/coffee-bag.svg"
             alt="Illustration of a Hill and Hollow Coffee bag beside a ceramic mug">
@@ -56,57 +56,57 @@
 
     <section id="coffee">
       <div>
-        <p>Roast Lineup</p>
-        <h2>Three coffees. Zero existential crisis.</h2>
+        <p class="text-sm text-[#6D4A38] font-semibold">Roast Lineup</p>
+        <h2 class="text-3xl font-bold">Three coffees. Zero existential crisis.</h2>
 
-        <div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 py-8 px-4 md:px-8 ">
 
-          <article>
-            <p>Medium Roast</p>
-            <h3>Front Porch</h3>
+          <article class="bg-[#ffffff]  border-gray-200 rounded-lg shadow-md p-6">
+            <p class="text-sm text-[#6D4A38] font-semibold">Medium Roast</p>
+            <h3 class="text-xl font-bold">Front Porch</h3>
             <p>
               Balanced and easygoing with notes of milk chocolate, toasted almond,
               and brown sugar.
             </p>
             <p>12 oz · Whole Bean</p>
-            <a href="#visit">Find it at the shop</a>
+            <a href="#visit" class="bg-[#261D1A] text-[#FAF7F2] hover:bg-[#B98458] hover:text-[#261D1A] font-semibold text-sm py-0.3 px-4 rounded">Find it at the shop</a>
           </article>
 
-          <article>
-            <p>Light Roast</p>
-            <h3>Daybreak</h3>
+          <article class="bg-[#ffffff]  border-gray-200 rounded-lg shadow-md p-6">
+            <p class="text-sm text-[#6D4A38] font-semibold">Light Roast</p>
+            <h3 class="text-xl font-bold">Daybreak</h3>
             <p>
               Bright but approachable with citrus, honey, and a clean finish.
             </p>
             <p>12 oz · Whole Bean</p>
-            <a href="#visit">Find it at the shop</a>
+            <a href="#visit" class="bg-[#261D1A] text-[#FAF7F2] hover:bg-[#B98458] hover:text-[#261D1A] font-semibold text-sm py-0.3 px-4 rounded">Find it at the shop</a>
           </article>
 
-          <article>
-            <p>Dark Roast</p>
-            <h3>Last Light</h3>
+          <article class="bg-[#ffffff]  border-gray-200 rounded-lg shadow-md p-6">
+            <p class="text-sm text-[#6D4A38] font-semibold">Dark Roast</p>
+            <h3 class="text-xl font-bold">Last Light</h3>
             <p>
               Deep and smooth with cocoa, caramelized sugar, and a little smoke.
             </p>
             <p>12 oz · Whole Bean</p>
-            <a href="#visit">Find it at the shop</a>
+            <a href="#visit" class="bg-[#261D1A] text-[#FAF7F2] hover:bg-[#B98458] hover:text-[#261D1A] font-semibold text-sm py-0.3 px-4 rounded">Find it at the shop</a>
           </article>
 
         </div>
       </div>
     </section>
 
-    <section id="story">
-      <div>
-        <div>
+    <section id="story" class="bg-[#F0E4D5]">
+      <div class="flex items-center justify-between py-6 px-4 md:px-8">
+        <div class="flex-1 ">
           <img
             src="images/roastery.svg"
             alt="Illustration of a small coffee roastery with sacks, shelves, and a roasting machine">
         </div>
 
-        <div>
-          <p>Our Story</p>
-          <h2>Roasted for normal mornings.</h2>
+        <div class="flex-1 bg-[#F0E4D5] p-2 items-right">
+          <p class="text-sm text-[#6D4A38] font-semibold">Our Story</p>
+          <h2 class="text-xl font-bold">Roasted for normal mornings.</h2>
           <p>
             Hill &amp; Hollow started with a simple idea: specialty coffee can be
             excellent without being intimidating.
@@ -125,23 +125,23 @@
       </div>
     </section>
 
-    <section>
+    <section">
       <div>
-        <p>Why Hill &amp; Hollow?</p>
+        <p class="text-3xl font-bold">Why Hill &amp; Hollow?</p>
 
-        <div>
-          <article>
-            <h3>Fresh</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 py-8 px-4 md:px-8 ">
+          <article class="bg-[#ffffff]  border-gray-200 rounded-lg shadow-md p-6">
+            <h3 class="text-lg font-bold">Fresh</h3>
             <p>Roasted in small batches and dated clearly.</p>
           </article>
 
-          <article>
-            <h3>Simple</h3>
+          <article class="bg-[#ffffff]  border-gray-200 rounded-lg shadow-md p-6">
+            <h3 class="text-lg font-bold">Simple</h3>
             <p>A focused lineup instead of 47 nearly identical bags.</p>
           </article>
 
-          <article>
-            <h3>Local</h3>
+          <article class="bg-[#ffffff]  border-gray-200 rounded-lg shadow-md p-6">
+            <h3 class="text-lg font-bold">Local</h3>
             <p>Roasted and packed in the Texas Hill Country.</p>
           </article>
         </div>
@@ -151,7 +151,7 @@
     <section id="visit">
       <div>
         <div>
-          <p>Visit the Roastery</p>
+          <p><strong>Visit the Roastery</strong></p>
           <h2>Come smell what we're roasting.</h2>
           <p>
             Stop by for fresh beans, simple brewing advice, and whatever is coming
@@ -164,15 +164,15 @@
           <p>214 Market Road</p>
           <p>Boerne, TX 78006</p>
           <p>Tuesday–Saturday · 8 a.m.–4 p.m.</p>
-          <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+          <p class= "hover:text-[#8B4513]"><a href="mailto:hello@example.com">hello@example.com</a></p>
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer>
-    <div>
+  <footer class="bg-[#261D1A] border-b border-[#261D1A]">
+    <div class="text-[#FAF7F2] flex items-center justify-between py-6 px-4 md:px-8">
       <p><strong>Hill &amp; Hollow Coffee</strong></p>
       <p>Roasted in the Texas Hill Country.</p>
     </div>
