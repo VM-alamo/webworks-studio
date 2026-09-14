@@ -53,3 +53,6 @@ Add your published GitHub Pages URL here.
 The Tailwind Play CDN is being used for this instructional sprint only. It is intended for development, not production deployment workflows.
 
 Refer to the Week 4 Canvas assignment for all requirements and submission directions.
+
+ Honestly I don't know what but I used buttons and grids.
+ it helped to make things easy to see and made it helpful to locate.
