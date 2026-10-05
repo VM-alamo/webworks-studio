@@ -82,3 +82,9 @@ For each, briefly explain why it matters to Maya's primary task.
 
 ## Week 7 Handoff
 Week 7 will turn your top three priorities into interface requirements, wireframes, and a prototype.
+I created a wireframe of the 3 most important that I think Maya problems are.
+My 3 design requirements are the time, not enoguh deatils, and not understanding difficultlys.
+https://www.figma.com/design/rhQ9nO1AXQO1eERu2e77JE/wireframs?node-id=0-1&t=7IGPQvvEookleFIk-1
+<link rel="photos" href="css/wireframes figma.png"> ????
+I made a level of difficultlys, added a page where she can have more details, and adding time on the cards.
+the two accessibility decisions was adding more pictures, and its not crowed...
