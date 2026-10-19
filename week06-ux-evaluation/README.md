@@ -88,3 +88,8 @@ https://www.figma.com/design/rhQ9nO1AXQO1eERu2e77JE/wireframs?node-id=0-1&t=7IGP
 <link rel="photos" href="css/wireframes figma.png"> ????
 I made a level of difficultlys, added a page where she can have more details, and adding time on the cards.
 the two accessibility decisions was adding more pictures, and its not crowed...
+
+
+week 8 
+i dont know what I really did. I tryed to make it closely to my draft but idk/
+i have the seach and quiz respond.

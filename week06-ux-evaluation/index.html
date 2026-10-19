@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hill Country Trail Guide</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="images" href="images">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="#">Hill Country Trail Guide</a>
+      <nav aria-label="Main navigation">
+        <a href="#">Trails</a>
+        <a href="#">Safety</a>
+        <a href="#">Plan your Hike</a>
+        <button id="search-btn" aria-label="Search">🔍</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        
+        <p class="eyebrow">Explore South Texas</p>
+        <h1>Find your next trail.</h1>
+        <p>Need a perfect trail just for you? Take thia short quiz to find the perfect one for you!</p>
+<button id="quiz-btn" class="btn-primary">Take Quiz!</button>
+</div>
+<div class="hero-image"><img src="trail image.jpg" alt="main trail image" class="floated-image">
+      </div>
+    </section>
+
+    <section class="wrap filter-strip" aria-labelledby="filter-title">
+      <p class="eyebrow">Choose a category below to narrow the list</p>
+      <div class="filter-row">
+        <button class="fake-control">Easy</button>
+        <button class="fake-control">Moderate</button>
+        <button class="fake-control">Hard</button>
+        <button class="fake-control">Under 5 miles</button>
+        <button class="fake-control">Dog friendly</button>
+        <button class="fake-control"><a href="#" class="small-link">View all→</a></button>
+      </div>
+    </section>
+
+    <section class="wrap trails" aria-labelledby="trail-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Popular right now</p>
+        </div>
+        <a href="#" class="small-link">View all→</a>
+      </div>
+
+      <div class="trail-grid">
+        <article class="trail-card">
+          <div class="photo photo-one" role="img" aria-label="Rocky Hill trail landscape"></div>
+          <div class="card-body">
+            <div class="difficulty easy-dot">Easy</div>
+            <h3>Juniper Creek Loop</h3>
+            <p>Shaded creek crossings, limestone shelves, and a quiet overlook.</p>
+            <div class="trail-stats">
+                            <div class="stat">
+                                <span class="stat-label">Est. Time</span>
+                                <span class="stat-value">⏱️ 1hr-1.5hrs</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Distance</span>
+                                <span class="stat-value">📍 4.8mi - 620ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Elevation Level</span>
+                                <span class="stat-value">📈 240ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Family Friendly</span>
+                                <span class="stat-value">⭐ Yes</span>
+                            </div>
+                        </div>
+                        <button class="btn-card-info">More info click here!</button>
+                    </div>
+          </div>
+        </article>
+
+        <article class="trail-card">
+          <div class="photo photo-two" role="img" aria-label="Canyon viewpoint"></div>
+          <div class="card-body">
+            <div class="difficulty moderate-dot">Moderate</div>
+            <h3>Painted Bluff Trail</h3>
+            <p>A short climb with broad views and exposed sections near the bluff.</p>
+            <div class="trail-stats">
+                            <div class="stat">
+                                <span class="stat-label">Est. Time</span>
+                                <span class="stat-value">⏱️ 2-2.3hrs</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Distance</span>
+                                <span class="stat-value">📍 3.2mi - 840ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Elevation Level</span>
+                                <span class="stat-value">📈 360ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Family Friendly</span>
+                                <span class="stat-value">⭐ Teens+</span>
+                            </div>
+                        </div>
+                        <button class="btn-card-info">More info click here!</button>
+                    </div>
+          </div>
+        </article>
+
+        <article class="trail-card">
+          <div class="photo photo-three" role="img" aria-label="Oak trail"></div>
+          <div class="card-body">
+            <div class="difficulty hard-dot">Hard</div>
+            <h3>Live Oak Ridge</h3>
+            
+            <p>Rolling terrain through oak woodland with several picnic clearings.</p>
+            <div class="trail-stats">
+                            <div class="stat">
+                                <span class="stat-label">Est. Time</span>
+                                <span class="stat-value">⏱️ 3.5-3.7hrs</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Distance</span>
+                                <span class="stat-value">📍 6.1mi - 410ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Elevation Level</span>
+                                <span class="stat-value">📈 440ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Family Friendly</span>
+                                <span class="stat-value">⭐ No</span>
+                            </div>
+                        </div>
+                        <button class="btn-card-info">More info click here!</button>
+                    </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="safety-banner" id="safety">
+            <div class="safety-header">
+                <h3>Before you go</h3>
+                <span class="safety-sub">Make sure you:</span>
+                <span class="tip">TIP: Check current park information before leaving home</span>
+            </div>
+            <div class="safety-grid">
+                <div class="safety-item">
+                    <span class="safety-icon">☀️</span>
+                    <p>Check Weather</p>
+                </div>
+                <div class="safety-item">
+                    <span class="safety-icon">⏱️</span>
+                    <p>Check Access</p>
+                </div>
+                <div class="safety-item">
+                    <span class="safety-icon">🚗</span>
+                    <p>Check fees</p>
+                </div>
+                <div class="safety-item">
+                    <span class="safety-icon">🍼</span>
+                    <p>Take water</p>
+                </div>
+                <div class="safety-item">
+                    <span class="safety-icon">🛡️</span>
+                    <p>Stay Safe</p>
+                </div>
+            </div>
+        </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Hill Country Trail Guide · A WebWorks Studio fictional client</p>
+    </div>
+  </footer>
+</body>
+</html>
