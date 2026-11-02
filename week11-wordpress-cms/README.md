@@ -15,42 +15,42 @@ Briefly summarize what you configured in WordPress.
 ## WordPress Site Access
 
 **Site URL or instructor-access information:**  
-[Add the site URL or access information provided by your instructor.]
+[\[Add the site URL or access information provided by your instructor.\]](https://vmedllin17.wordpress.com/)
 
 ---
 
 # Content Architecture
 
-Explain how you organized the supplied client content.
+I put everyting in a thier own box and groups
 
 ## Pages
 
 List the Pages you created and briefly explain why they belong as Pages.
 
-- **Home:** [Explain]
-- **Programs:** [Explain]
-- **About:** [Explain]
+- **Home:** [The home page where the info about there servis]
+- **Programs:** [A page about their programs]
+- **About:** [A page that explain what they belevie in foing.]
 
 ## Post
 
-**News Post:** [Add the post title]
+**News Post:** [Fall Workshop Registration Opens September 3]
 
 Explain why this content belongs as a Post rather than a Page.
 
-[Write your response here.]
+[This post is an event thats coming up soon and only temparay then keeping forever.]
 
 ---
 
 # Reusable Pattern
 
 **Pattern Name:**  
-[Add the pattern name.]
+[Ready to Join a Program?]
 
 **Used For:**  
-[Describe the repeated content structure.]
+[Check current availability and upcoming sessions through the organization’s news and announcements.]
 
 **Why a Pattern Was Appropriate:**  
-[Explain why this content should be reusable.]
+[if they make any more pages they can add this block to easyliy go to the posts to keep up to date.]
 
 ---
 
@@ -59,13 +59,13 @@ Explain why this content belongs as a Post rather than a Page.
 Describe the required Site Editor change you completed.
 
 **Change:**  
-[Describe the change.]
+[I didn't change anything because I made it....]
 
 **Where It Was Made:**  
-[Header, footer, navigation, template part, etc.]
+[Header, footer, navigation, template part, etc.] all?
 
 **Why It Belongs at the Site Level:**  
-[Explain why this should affect multiple pages rather than one page only.]
+[Explain why this should affect multiple pages rather than one page only.] You want something stable so that cunsumers know how to navigate somewhere without always trying to find something new.
 
 ---
 
@@ -77,25 +77,26 @@ Complete `CLIENT-UPDATE.md` after the primary site build, then document the resu
 
 Briefly identify the client change you completed.
 
-[Write here.]
+They wanted a paragrph change a bit to be more spific
 
 ## Where I Made the Update
 
 What WordPress content-editing area did you use?
 
-[Write here.]
+In the programs page i change what they wanteed. > Short-format workshops introduce participants to a specific medium or technique.
+to > Short-format workshops introduce participants to a focused medium or technique through guided, beginner-friendly practice.
 
 ## Structure Check
 
 Did you need to modify the header, footer, navigation, template, template part, or reusable pattern? Explain.
 
-[Write here.]
+I made the hearder more easly to read like home instead of Southtown Community Arts
 
 ## Maintainability Result
 
 Explain how this update demonstrates that routine content can change without rebuilding the site's global structure.
 
-[Write 2–4 sentences here.]
+Adding a smiple edit dosen't need to be looking everywhere. Its not messy as ii is in scripting (for someone who dosen't know it).
 
 ---
 
@@ -105,23 +106,23 @@ Document the quality checks you completed.
 
 ## Headings
 
-[Briefly explain how you verified logical heading structure.]
+I made sure that the nav was in the order they wanted
 
 ## Images
-
-[Briefly explain how you handled meaningful alternative text.]
+I added all drawing to the images and made sure to add detail descrpion for them.
 
 ## Links & Buttons
 
-[Briefly explain how you checked link/button text.]
+I would pressed enter and click a black square to add something.
 
 ## Keyboard
 
 [Briefly explain how you tested keyboard navigation and visible focus.]
+im not too sure
 
 ## Responsive Layout
 
-[Briefly explain how you checked narrow-screen behavior.]
+(I check with there own preview of how the ipad and phone would look like.)
 
 ---
 
@@ -163,25 +164,25 @@ Keep each response concise and specific to this project.
 
 Why is WordPress an appropriate solution for Southtown Community Arts?
 
-[Write 2–4 sentences here.]
+It is very easy to add blocks and make it fast. It also can help out the owner so they can update it whenever.
 
 ## Editable Content
 
 What information should Southtown Community Arts staff be able to update routinely?
 
-[Write 2–4 sentences here.]
+They can add post regulaty. adding another page is also very easy.
 
 ## Reusable Structure
 
 What site element did you make reusable or site-wide, and why?
 
-[Write 2–4 sentences here.]
+I made a block that will take you to the post fast. Also having a footer across is very easy for the user to contact the place.
 
 ## Client Protection
 
 What design or architecture decision helps the site remain consistent when staff members make routine updates?
 
-[Write 2–4 sentences here.]
+having a color theme will help them stay in the color group. and having a set and stone page can help them recreate it/ use it again.
 
 ---
 
